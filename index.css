@@ -1,0 +1,562 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(241, 241, 241, 1);
+}
+.natvar {
+  display: flex;
+  align-items: center;
+  height: 62px;
+  justify-content: space-between;
+  padding: 12px 80px 12px 80px;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.left img {
+  height: 22px;
+  width: 18.86px;
+}
+.left p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Kanit", sans-serif;
+}
+.right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-around;
+}
+.right a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Inter", sans-serif;
+  padding: 10px 12px 10px 12px;
+  color: rgba(8, 30, 52, 1);
+}
+.right button {
+  background-color: rgba(8, 30, 52, 0.12);
+  border-radius: 100px;
+  width: 102px;
+  height: 38px;
+  border: none;
+}
+.right button:hover {
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+.how_it_works {
+  padding: 16px 24px 16px 24px;
+  background-color: #712fff;
+  border-radius: 100px;
+  border: none;
+  gap: 10px;
+  color: #ffffff;
+  cursor: context-menu;
+}
+.how_it_works:hover {
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.firstPart {
+  display: flex;
+  width: Fill (1, 440px) px;
+  height: Hug (620px) px;
+  padding: 100px 80px 100px 80px;
+  gap: 165px;
+  opacity: 0px;
+}
+
+.firstPartText {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 495px;
+  height: 366px;
+  gap: 48px;
+  flex-direction: column;
+}
+.FirstTitle {
+  font-family: Kanit;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+}
+.description {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+}
+.laptop {
+  width: 619px;
+  height: 420px;
+  gap: 0px;
+  border-radius: 32px;
+  opacity: 0px;
+}
+.dollar {
+  width: 139px;
+  height: 181px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  top: 190px;
+  right: 350px;
+}
+.fire {
+  position: absolute;
+  width: 148px;
+  height: 172px;
+  top: 417px;
+  left: 970px;
+  gap: 0px;
+  opacity: 0px;
+}
+.secondPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: Fill (1, 440px) px;
+  height: Fixed (562px) px;
+  padding: 100px 80px 100px 80px;
+  gap: 86px;
+  border-radius: 32px 0px 0px 0px;
+  opacity: 0px;
+
+  background-color: rgba(225, 222, 231, 1);
+}
+.sec1 {
+  width: 351px;
+  height: 84px;
+  gap: 12px;
+  opacity: 0px;
+}
+.sec11 {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+.sec12 {
+  font-family: Kanit;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+.sec2 {
+  display: flex;
+  justify-content: space-between;
+  width: 1px 280px;
+  height: 186px;
+  gap: 40px;
+  opacity: 0px;
+}
+.img_1 {
+  width: 35.13px;
+  height: 64px;
+  left: 14px;
+  gap: 0px;
+  opacity: 0px;
+}
+.title_11 {
+  width: 400px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+.title_12 {
+  width: 400px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+}
+.sec22 {
+  width: 480px;
+  height: 186px;
+  gap: 48px;
+  opacity: 0px;
+}
+.img_2 {
+  width: 48.3px;
+  height: 64px;
+  left: 8px;
+  gap: 0px;
+  opacity: 0px;
+}
+.title_21 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+.title_22 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+}
+.sec23 {
+  width: 400px px;
+  height: 186px px;
+  gap: 48px;
+  opacity: 0px;
+}
+.img_3 {
+  width: 48.57px;
+  height: 64px;
+  left: 8px;
+  gap: 0px;
+  opacity: 0px;
+}
+.title_31 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+.title_32 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+}
+.sec21 {
+  width: 480px;
+  height: 186px;
+  gap: 48px;
+  opacity: 0px;
+}
+
+input[type="text"] {
+  background-image: url("/jumysTap/images/Search.png");
+  background-repeat: no-repeat;
+  background-position: 12px 12px;
+  padding: 12px 20px 12px 40px;
+  width: 50%;
+  border: none;
+  border-radius: 12px;
+  font-size: 20px;
+}
+.inputButton {
+  display: flex;
+  flex-direction: row;
+  width: 619px;
+  height: 50px;
+  gap: 25px;
+}
+input[type="text"] ::placeholder {
+  color: #999;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+}
+h1 {
+  width: 495px;
+  height: 64px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Kanit;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+}
+.des {
+  width: 495px;
+  height: 44px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  width: Hug (757px) px;
+  height: Hug (222px) px;
+  gap: 32px;
+  margin-left: 25px;
+}
+.thirdButton {
+  padding: 16px 24px 16px 24px;
+  background-color: #712fff;
+  border-radius: 100px;
+  border: none;
+  gap: 10px;
+  color: #ffffff;
+  cursor: context-menu;
+}
+.thirdButton:hover {
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 400px) {
+  .right a {
+    display: none;
+  }
+  .natvar {
+    display: flex;
+    padding: 12px 24px 12px 24px;
+    gap: 92px;
+  }
+  .firstPart {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.forthPart {
+  display: flex;
+  flex-direction: row;
+  width: 1440px px;
+  height: 548px px;
+  padding: 64px 24px 64px 24px;
+  gap: 128px;
+}
+.forthOne {
+  display: flex;
+  justify-content: space-between;
+  width: 619px;
+  height: 420px;
+  margin-left: 0px;
+}
+.lighting {
+  width: 87px;
+  height: 144px;
+  position: absolute;
+  top: 1750px;
+  left: 112px;
+}
+.stars {
+  width: 97px;
+  height: 94px;
+  top: 28px;
+  left: 213px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  left: 300px;
+  top: 1650px;
+}
+.forth_first_picture {
+  width: 700px;
+  height: 466.67px;
+  top: -23px;
+  left: -40px;
+  border-radius: 32px;
+}
+.forthSec {
+  display: flex;
+  flex-direction: column;
+  width: 495px;
+  height: 214px;
+  gap: 32px;
+  opacity: 0px;
+}
+.forthTitle {
+  font-family: Kanit;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+  width: 391px;
+  height: 56px;
+  color: rgba(0, 0, 0, 1);
+}
+.forthDes {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  width: 445px;
+  height: 44px;
+  color: rgba(0, 0, 0, 1);
+}
+.Upload {
+  display: flex;
+  padding: 16px 24px 16px 24px;
+  background-color: #712fff;
+  border: none;
+  gap: 10px;
+  color: #ffffff;
+  cursor: context-menu;
+  width: 114px;
+  height: 50px;
+  border-radius: 100px 100px 100px 100px;
+}
+.Upload {
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+.Upload img {
+  width: 18px;
+  height: 18px;
+  gap: 0px;
+  opacity: 0px;
+}
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 38px;
+  gap: 90px;
+  opacity: 0px;
+}
+.footerOne {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 372px;
+  height: 38px;
+  gap: 16px;
+  margin-left: 25px;
+}
+.footerSec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 803px;
+  height: 38px;
+  gap: 16px;
+}
+.footerFirstButt {
+  width: 64 px;
+  height: 38px;
+  padding: 10px 12px 10px 12px;
+  gap: 8px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  color: rgba(8, 30, 52, 1);
+  border: none;
+  outline: none;
+}
+.footerSecButt {
+  width: 90px;
+  height: 38px;
+  padding: 10px 12px 10px 12px;
+  gap: 8px;
+  border-radius: 100px 0px 0px 0px;
+  opacity: 0px;
+  border: none;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  color: rgba(8, 30, 52, 1);
+}
+.footerThirdButt {
+  width: 111px;
+  height: 38px;
+  padding: 10px 12px 10px 12px;
+  gap: 8px;
+  border-radius: 100px 0px 0px 0px;
+  opacity: 0px;
+  border: none;
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  color: rgba(8, 30, 52, 1);
+}
+.tw {
+  width: 24px;
+  height: 24px;
+}
+.ins {
+  width: 24px;
+  height: 24px;
+}
+
+.footerSec {
+  display: flex;
+  width: 803px;
+  height: 38px;
+  gap: 16px;
+}
+.footersLastButton {
+  height: 38px;
+  padding: 10px 12px 10px 12px;
+  gap: 8px;
+  border-radius: 100px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  border: none;
+  color: rgba(8, 30, 52, 1);
+  height: 18px;
+  opacity: 50%;
+}
+.footer2 {
+  height: 38px;
+  gap: 16px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#TheLastButton {
+  height: 38px;
+  padding: 10px 12px 10px 12px;
+  gap: 8px;
+  border-radius: 100px 0px 0px 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  color: rgba(8, 30, 52, 1);
+  border: none;
+  margin-right: 20px;
+}
